@@ -48,11 +48,11 @@ Save the workflow at: .github/workflows/terraform-azure.yml
 
 ## GitHub Actions Pipeline
 
-The workflow defines multi-environment Terraform deployment. Full YAML:
+The workflow defines multi-environment Terraform deployment: '.github/workflows/terraform-azure.yml':
 
 ```yaml
 name: Terraform Azure Deploy
-run-name: ${{ github.event_name }} - Terraform Multi-Environment
+run-name: ${{ github.event_name }} - Terraform Multi-Environmen'
 
 on:
   pull_request:
